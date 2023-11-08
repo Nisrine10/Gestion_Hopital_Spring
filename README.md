@@ -8,11 +8,11 @@ L'objectif principal de ce rapport est de présenter une analyse complète du pr
 en mettant en avant les concepts et les techniques clés employés tout au long de son développement.
 </p>
 <h2>Conception du Projet</h2>
-<img src="captures/conception.PNG" alt="Conception">
+<img src="captures/conception.png" alt="Conception">
 <h2>Structure du Projet</h2>
 <p style="text-align: justify; text-justify: inter-word;">Le projet "Hospital Project" est organisé en plusieurs packages et comprend les éléments suivants :</p>
 <ol>
-  <li><strong>ma.meriem.hospitalProject.entities :</strong>
+  <li><strong>hospitalProject.entities :</strong>
     Ce package contient les classes qui représentent les entités du projet.
     <ul>
       <li><strong>Patient :</strong> Cette classe représente les patients de l'hôpital. Elle comprend des informations telles que le nom du patient, sa date de naissance, son état de maladie et une relation vers les rendez-vous associés.</li>
