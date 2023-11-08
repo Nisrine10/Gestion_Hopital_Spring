@@ -45,7 +45,8 @@ class HospitalProjectApplication {
                     });
             Patient patient=patientRepository.findByNom("Nisrine");
             Patient patient1=patientRepository.findById(1L).orElse(null);
-            Medecin medecin=medecinRepository.findByNom("Abdelilah");
+            System.out.println("ID du rendez-vous sauvegardé : " + patient1.getId());
+            Medecin medecin=medecinRepository.findByNom("Nour");
             RendezVous rendezVous=new RendezVous();
             rendezVous.setDate(new Date());
             rendezVous.setStatus(StatusRDV.PENDING);
